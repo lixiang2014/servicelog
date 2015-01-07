@@ -1,0 +1,134 @@
+** Message: -------------greeter main--------------
+** Message: ====init_lightdm====
+** Message: ====init_monitors====start
+** Message: ====monitors_extend====start
+** Message: [monitors_extend]:len:1
+** Message: ====init_monitors====succeed:1
+** Message: ====monitors_set_cb====monitors len:1
+** Message: [update_n_monitor_info] gdk monitors num:1 and index:[0]:::1280x768(0,0)
+** Message: [is_in_rect]:: (640,384) is in (0,0,1280,768)
+** Message: [update_workarea_rect_by_mouse]:: index:[0]:: 1280*768 (0,0)
+** Message: [widget_move_by_rect] realized:==0==, info: 1280*768(0, 0)
+** Message: theme:sky
+** Message: theme_bg_path:/usr/share/dde/resources/greeter/greeter-theme/sky/bg.jpg
+** Message: create_background_info
+** Message: background_info_set_background_by_file:/usr/share/dde/resources/greeter/greeter-theme/sky/bg.jpg
+** Message: gdk_screen_get_width:1280,height:768;
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @622: com.deepin.daemon.Accounts
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: ACCOUNTS_DAEMON succeed and then connect path
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: /com/deepin/daemon/Accounts/User1000
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: Uid:1000
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: UserName:ltscmd
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: setTheme:sky
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: Greeter
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: Greeter get_default_username:---------null-------------
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @1547: _default_username:null
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: _default_username:ltscmd;uid:1000
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: new_userinfo_for_greeter
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: new UserInfo :ltscmd
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: new LoginEntry:login
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: login , ltscmd is_need_pwd is true
+
+** Message: greeter_get_user_layouts key_file /var/lib/greeter/users.ini load:0
+
+(lightdm-deepin-greeter:1213): GLib-CRITICAL **: g_strv_length: assertion 'str_array != NULL' failed
+** Message: layouts_list len:0
+** Message: greeter_get_user_session_on:ltscmd
+
+** Message: lightdm_user_get_logged_in return FALSE
+
+** Message: greeter_get_user_session_on result is 0.
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: ltscmd focus
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: Greeter.get_user_session(ltscmd):null
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: session default_session deepin--
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: userinfo ltscmd update_session_icon:deepin
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: power_get_inhibit
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: Greeter get_default_username:---------null-------------
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: get_user_id TypeError: 'undefined' is not an object (evaluating 'this.users_name_dbus[user].Uid')
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: new_power_menu
+
+** Message: greeter_get_user_session_on:ltscmd
+
+** Message: lightdm_user_get_logged_in return FALSE
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: user_lock_path is_running,and login_on is TRUE;
+
+** Message: greeter_get_user_session_on result is 0.
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: shutdown true null
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: restart true null
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: suspend true null
+
+** Message: console message: file:///usr/share/dde/resources//greeter/greeter-theme/sky/sky.js @21: sky theme init==== document.body.onload
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: body keydown:76
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: body keydown:85
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: body keydown:78
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: body keydown:84
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: body keydown:65
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: body keydown:78
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: loginbutton click
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: on_verify:ltscmd
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: loginAnimation
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: ltscmd start session deepin
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: greeter start session:start authenticated
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: start authentication:ltscmd
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: respond_authentication
+
+** (lightdm-deepin-greeter:1213): WARNING **: respond authentication:luntan
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: authenticated_complete:-1698939670
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: authenticated auth-succeed
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: auth-succeed!
+
+** Message: console message: file:///usr/share/dde/resources//greeter/js/greeter.js @85: greeter exit
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: start session
+
+
+** (lightdm-deepin-greeter:1213): WARNING **: kill user lock:found user had locked
+

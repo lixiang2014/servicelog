@@ -1,0 +1,8 @@
+
+(NetworkManager:557): GLib-WARNING **: GError set over the top of a previous GError or uninitialized memory.
+This indicates a bug in someone's code. You must ensure an error is NULL before it's set.
+The overwriting error message was: 键文件没有组“connectivity”
+
+(NetworkManager:557): GLib-WARNING **: GError set over the top of a previous GError or uninitialized memory.
+This indicates a bug in someone's code. You must ensure an error is NULL before it's set.
+The overwriting error message was: 键文件没有组“connectivity”

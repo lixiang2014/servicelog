@@ -1,0 +1,8 @@
+fsck，来自 util-linux 2.20.1
+/dev/sda1: 超级块 last mount time is in the future.
+	(by less than a day, probably due to the hardware clock being incorrectly set)  已处理.
+/dev/sda1: 超级块 last write time is in the future.
+	(by less than a day, probably due to the hardware clock being incorrectly set).  已处理.
+/dev/sda1: clean, 165060/1310720 files, 1266778/5241198 blocks
+fsck，来自 util-linux 2.20.1
+/dev/sda1: clean, 165665/1310720 files, 1281303/5241198 blocks

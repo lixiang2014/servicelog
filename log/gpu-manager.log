@@ -1,0 +1,49 @@
+log_file: /var/log/gpu-manager.log
+last_boot_file: /var/lib/ubuntu-drivers-common/last_gfx_boot
+new_boot_file: /var/lib/ubuntu-drivers-common/last_gfx_boot
+grep dmesg status 256
+dmesg status 256 == 0? No
+grep dmesg status 256
+dmesg status 256 == 0? No
+Is nvidia loaded? no
+Was nvidia unloaded? no
+Is nvidia blacklisted? no
+Is fglrx loaded? no
+Was fglrx unloaded? no
+Is fglrx blacklisted? no
+Is intel loaded? no
+Is radeon loaded? no
+Is radeon blacklisted? no
+Is nouveau loaded? no
+Is nouveau blacklisted? no
+Is fglrx kernel module available? no
+Is nvidia kernel module available? no
+Vendor/Device Id: 15ad:405
+BusID "PCI:0@0:15:0"
+Is boot vga? yes
+Skipping "/dev/dri/card0", driven by "vmwgfx"
+Skipping "/dev/dri/card0", driven by "vmwgfx"
+Skipping "/dev/dri/card0", driven by "vmwgfx"
+Does it require offloading? no
+last cards number = 1
+Has amd? no
+Has intel? no
+Has nvidia? no
+How many cards? 1
+Has the system changed? No
+main_arch_path i386-linux-gnu, other_arch_path x86_64-linux-gnu
+Current alternative: /usr/lib/i386-linux-gnu/mesa/ld.so.conf
+Current core alternative: (null)
+Is nvidia enabled? no
+Is fglrx enabled? no
+Is mesa enabled? yes
+Is pxpress enabled? no
+Is prime enabled? no
+Is nvidia available? no
+Is fglrx available? no
+Is fglrx-core available? no
+Is mesa available? yes
+Is pxpress available? no
+Is prime available? no
+Single card detected
+No change - nothing to do

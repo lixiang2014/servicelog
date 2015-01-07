@@ -1,0 +1,72 @@
+[+0.02s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.02s] DEBUG: Starting Light Display Manager 1.10.3, UID=0 PID=906
+[+0.02s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.02s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.02s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.02s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.02s] DEBUG: Loading configuration dirs from /usr/local/share/lightdm/lightdm.conf.d
+[+0.02s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.02s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.02s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.02s] DEBUG: Registered seat module xlocal
+[+0.02s] DEBUG: Registered seat module xremote
+[+0.02s] DEBUG: Registered seat module unity
+[+0.02s] DEBUG: Registered seat module surfaceflinger
+[+0.05s] DEBUG: Adding default seat
+[+0.05s] DEBUG: Seat: Starting
+[+0.05s] DEBUG: Seat: Creating greeter session
+[+0.05s] DEBUG: Seat: Creating display server of type x
+[+0.10s] DEBUG: Deactivating Plymouth
+[+0.17s] DEBUG: Using VT 7
+[+0.17s] DEBUG: Seat: Starting local X display on VT 7
+[+0.17s] DEBUG: DisplayServer x-0: Logging to /var/log/lightdm/x-0.log
+[+0.17s] DEBUG: DisplayServer x-0: Writing X server authority to /var/run/lightdm/root/:0
+[+0.17s] DEBUG: DisplayServer x-0: Launching X Server
+[+0.17s] DEBUG: Launching process 925: /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+[+0.17s] DEBUG: DisplayServer x-0: Waiting for ready signal from X server :0
+[+0.18s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+0.18s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+0.98s] DEBUG: Loading users from org.freedesktop.Accounts
+[+0.98s] DEBUG: User /org/freedesktop/Accounts/User1000 added
+[+4.75s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+5.38s] DEBUG: Got signal 10 from process 925
+[+5.38s] DEBUG: DisplayServer x-0: Got signal from X server :0
+[+5.38s] DEBUG: DisplayServer x-0: Connecting to XServer :0
+[+5.40s] DEBUG: Quitting Plymouth; retaining splash
+[+5.50s] DEBUG: Seat: Display server ready, starting session authentication
+[+5.51s] DEBUG: Session pid=1209: Started with service 'lightdm-greeter', username 'lightdm'
+[+5.64s] DEBUG: Session pid=1209: Authentication complete with return value 0: Success
+[+5.64s] DEBUG: Seat: Session authenticated, running command
+[+5.64s] DEBUG: Session pid=1209: Running command /usr/lib/lightdm/lightdm-greeter-session /usr/bin/lightdm-deepin-greeter
+[+5.64s] DEBUG: Creating shared data directory /var/lib/lightdm-data/lightdm
+[+5.65s] DEBUG: Session pid=1209: Logging to /var/log/lightdm/x-0-greeter.log
+[+5.71s] DEBUG: Activating VT 7
+[+5.71s] DEBUG: Activating login1 session c1
+[+9.18s] DEBUG: Session pid=1209: Greeter connected version=1.10.3
+[+30.17s] DEBUG: Session pid=1209: Greeter start authentication for ltscmd
+[+30.17s] DEBUG: Session pid=1295: Started with service 'lightdm', username 'ltscmd'
+[+30.35s] DEBUG: Session pid=1295: Got 1 message(s) from PAM
+[+30.35s] DEBUG: Session pid=1209: Prompt greeter with 1 message(s)
+[+30.35s] DEBUG: Session pid=1209: Continue authentication
+[+30.57s] DEBUG: Session pid=1295: Authentication complete with return value 0: Success
+[+30.57s] DEBUG: Session pid=1209: Authenticate result for user ltscmd: Success
+[+30.57s] DEBUG: Session pid=1209: User ltscmd authorized
+[+30.72s] DEBUG: Session pid=1209: Greeter requests session deepin
+[+30.72s] DEBUG: Seat: Stopping greeter; display server will be re-used for user session
+[+30.72s] DEBUG: Session pid=1209: Sending SIGTERM
+[+30.75s] DEBUG: Session pid=1209: Exited with return value 0
+[+30.75s] DEBUG: Seat: Session stopped
+[+30.75s] DEBUG: Seat: Greeter stopped, running session
+[+30.75s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
+[+30.76s] DEBUG: Session pid=1295: Running command /usr/sbin/lightdm-session /usr/bin/startdde
+[+30.76s] DEBUG: Creating shared data directory /var/lib/lightdm-data/ltscmd
+[+30.76s] DEBUG: Session pid=1295: Logging to .xsession-errors
+[+30.83s] DEBUG: Activating VT 7
+[+30.83s] DEBUG: Activating login1 session c2
+[+31.83s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+430.15s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+430.28s] DEBUG: User /org/freedesktop/Accounts/User1001 added
+[+693.51s] DEBUG: User /org/freedesktop/Accounts/User1001 changed
+[+693.75s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+852.17s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+4329.58s] DEBUG: User /org/freedesktop/Accounts/User1000 changed

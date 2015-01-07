@@ -1,0 +1,139 @@
+Jan  7 13:56:50 Deepin systemd-logind[421]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  7 13:56:50 Deepin systemd-logind[421]: New seat seat0.
+Jan  7 13:57:01 Deepin ipsec__plutorun: Starting Pluto subsystem...
+Jan  7 13:57:02 Deepin pluto[974]: Starting Pluto (Openswan Version 2.6.38; Vendor ID OEvy\134kgzWq\134s) pid:974
+Jan  7 13:57:02 Deepin pluto[974]: LEAK_DETECTIVE support [disabled]
+Jan  7 13:57:02 Deepin pluto[974]: OCF support for IKE [disabled]
+Jan  7 13:57:02 Deepin pluto[974]: SAref support [disabled]: Protocol not available
+Jan  7 13:57:02 Deepin pluto[974]: SAbind support [disabled]: Protocol not available
+Jan  7 13:57:02 Deepin pluto[974]: NSS support [disabled]
+Jan  7 13:57:02 Deepin pluto[974]: HAVE_STATSD notification support not compiled in
+Jan  7 13:57:02 Deepin pluto[974]: Setting NAT-Traversal port-4500 floating to on
+Jan  7 13:57:02 Deepin pluto[974]:    port floating activation criteria nat_t=1/port_float=1
+Jan  7 13:57:02 Deepin pluto[974]:    NAT-Traversal support  [enabled]
+Jan  7 13:57:02 Deepin pluto[974]: using /dev/urandom as source of random entropy
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_enc(): Activating OAKLEY_AES_CBC: Ok (ret=0)
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_hash(): Activating OAKLEY_SHA2_512: Ok (ret=0)
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_hash(): Activating OAKLEY_SHA2_256: Ok (ret=0)
+Jan  7 13:57:02 Deepin pluto[974]: starting up 1 cryptographic helpers
+Jan  7 13:57:02 Deepin pluto[974]: started helper pid=1003 (fd:6)
+Jan  7 13:57:02 Deepin pluto[974]: Kernel interface auto-pick
+Jan  7 13:57:02 Deepin pluto[974]: Using Linux 2.6 IPsec interface code on 3.13.0-43-generic (experimental code)
+Jan  7 13:57:02 Deepin pluto[1003]: using /dev/urandom as source of random entropy
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_enc(): Activating aes_ccm_8: Ok (ret=0)
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_enc(): Activating aes_ccm_12: FAILED (ret=-17)
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_enc(): Activating aes_ccm_16: FAILED (ret=-17)
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_enc(): Activating aes_gcm_8: FAILED (ret=-17)
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_enc(): Activating aes_gcm_12: FAILED (ret=-17)
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 13:57:02 Deepin pluto[974]: ike_alg_register_enc(): Activating aes_gcm_16: FAILED (ret=-17)
+Jan  7 13:57:02 Deepin pluto[974]: listening for IKE messages
+Jan  7 13:57:02 Deepin pluto[974]: adding interface lo/lo 127.0.0.1:500
+Jan  7 13:57:02 Deepin pluto[974]: adding interface lo/lo 127.0.0.1:4500
+Jan  7 13:57:02 Deepin pluto[974]: adding interface lo/lo ::1:500
+Jan  7 13:57:02 Deepin pluto[974]: loading secrets from "/etc/ipsec.secrets"
+Jan  7 13:57:02 Deepin pluto[974]: loading secrets from "/var/lib/openswan/ipsec.secrets.inc"
+Jan  7 13:57:06 Deepin lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan  7 13:57:06 Deepin lightdm: PAM adding faulty module: pam_kwallet.so
+Jan  7 13:57:06 Deepin lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan  7 13:57:06 Deepin systemd-logind[421]: New session c1 of user lightdm.
+Jan  7 13:57:06 Deepin systemd-logind[421]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Jan  7 13:57:06 Deepin lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Jan  7 13:57:53 Deepin lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan  7 13:57:53 Deepin lightdm: PAM adding faulty module: pam_kwallet.so
+Jan  7 13:57:53 Deepin lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ltscmd"
+Jan  7 13:57:54 Deepin lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan  7 13:57:54 Deepin lightdm: pam_unix(lightdm:session): session opened for user ltscmd by (uid=0)
+Jan  7 13:57:54 Deepin systemd-logind[421]: Removed session c1.
+Jan  7 13:57:54 Deepin systemd-logind[421]: New session c2 of user ltscmd.
+Jan  7 13:57:54 Deepin systemd-logind[421]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jan  7 13:57:54 Deepin lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Jan  7 13:58:53 Deepin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.50 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan  7 14:07:19 Deepin systemd-logind[469]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  7 14:07:19 Deepin systemd-logind[469]: New seat seat0.
+Jan  7 14:07:38 Deepin ipsec__plutorun: Starting Pluto subsystem...
+Jan  7 14:07:40 Deepin pluto[994]: Starting Pluto (Openswan Version 2.6.38; Vendor ID OEvy\134kgzWq\134s) pid:994
+Jan  7 14:07:40 Deepin pluto[994]: LEAK_DETECTIVE support [disabled]
+Jan  7 14:07:40 Deepin pluto[994]: OCF support for IKE [disabled]
+Jan  7 14:07:40 Deepin pluto[994]: SAref support [disabled]: Protocol not available
+Jan  7 14:07:40 Deepin pluto[994]: SAbind support [disabled]: Protocol not available
+Jan  7 14:07:40 Deepin pluto[994]: NSS support [disabled]
+Jan  7 14:07:40 Deepin pluto[994]: HAVE_STATSD notification support not compiled in
+Jan  7 14:07:40 Deepin pluto[994]: Setting NAT-Traversal port-4500 floating to on
+Jan  7 14:07:40 Deepin pluto[994]:    port floating activation criteria nat_t=1/port_float=1
+Jan  7 14:07:40 Deepin pluto[994]:    NAT-Traversal support  [enabled]
+Jan  7 14:07:40 Deepin pluto[994]: using /dev/urandom as source of random entropy
+Jan  7 14:07:40 Deepin pluto[994]: ike_alg_register_enc(): Activating OAKLEY_AES_CBC: Ok (ret=0)
+Jan  7 14:07:40 Deepin pluto[994]: ike_alg_register_hash(): Activating OAKLEY_SHA2_512: Ok (ret=0)
+Jan  7 14:07:40 Deepin pluto[994]: ike_alg_register_hash(): Activating OAKLEY_SHA2_256: Ok (ret=0)
+Jan  7 14:07:40 Deepin pluto[994]: starting up 1 cryptographic helpers
+Jan  7 14:07:40 Deepin pluto[994]: started helper pid=1048 (fd:6)
+Jan  7 14:07:40 Deepin pluto[994]: Kernel interface auto-pick
+Jan  7 14:07:40 Deepin pluto[994]: Using Linux 2.6 IPsec interface code on 3.13.0-43-generic (experimental code)
+Jan  7 14:07:40 Deepin pluto[1048]: using /dev/urandom as source of random entropy
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_register_enc(): Activating aes_ccm_8: Ok (ret=0)
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_register_enc(): Activating aes_ccm_12: FAILED (ret=-17)
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_register_enc(): Activating aes_ccm_16: FAILED (ret=-17)
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_register_enc(): Activating aes_gcm_8: FAILED (ret=-17)
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_register_enc(): Activating aes_gcm_12: FAILED (ret=-17)
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_add(): ERROR: algo_type '0', algo_id '0', Algorithm type already exists
+Jan  7 14:07:41 Deepin pluto[994]: ike_alg_register_enc(): Activating aes_gcm_16: FAILED (ret=-17)
+Jan  7 14:07:42 Deepin pluto[994]: listening for IKE messages
+Jan  7 14:07:42 Deepin pluto[994]: adding interface lo/lo 127.0.0.1:500
+Jan  7 14:07:42 Deepin pluto[994]: adding interface lo/lo 127.0.0.1:4500
+Jan  7 14:07:42 Deepin pluto[994]: adding interface lo/lo ::1:500
+Jan  7 14:07:42 Deepin pluto[994]: loading secrets from "/etc/ipsec.secrets"
+Jan  7 14:07:42 Deepin pluto[994]: loading secrets from "/var/lib/openswan/ipsec.secrets.inc"
+Jan  7 14:07:43 Deepin lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan  7 14:07:43 Deepin lightdm: PAM adding faulty module: pam_kwallet.so
+Jan  7 14:07:43 Deepin lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan  7 14:07:43 Deepin systemd-logind[469]: New session c1 of user lightdm.
+Jan  7 14:07:43 Deepin systemd-logind[469]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Jan  7 14:07:43 Deepin lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Jan  7 14:08:07 Deepin lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan  7 14:08:07 Deepin lightdm: PAM adding faulty module: pam_kwallet.so
+Jan  7 14:08:07 Deepin lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ltscmd"
+Jan  7 14:08:08 Deepin lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan  7 14:08:08 Deepin lightdm: pam_unix(lightdm:session): session opened for user ltscmd by (uid=0)
+Jan  7 14:08:08 Deepin systemd-logind[469]: Removed session c1.
+Jan  7 14:08:08 Deepin systemd-logind[469]: New session c2 of user ltscmd.
+Jan  7 14:08:08 Deepin systemd-logind[469]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jan  7 14:08:08 Deepin lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Jan  7 14:09:05 Deepin polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.45 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Jan  7 14:14:26 Deepin sudo:   ltscmd : TTY=pts/1 ; PWD=/home/ltscmd ; USER=root ; COMMAND=/bin/zsh
+Jan  7 14:14:26 Deepin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan  7 14:14:46 Deepin useradd[1936]: new group: name=lutiesong, GID=1001
+Jan  7 14:14:46 Deepin useradd[1936]: new user: name=lutiesong, UID=1001, GID=1001, home=/home/lutiesong, shell=
+Jan  7 14:17:01 Deepin CRON[1969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  7 14:17:01 Deepin CRON[1969]: pam_unix(cron:session): session closed for user root
+Jan  7 14:19:09 Deepin passwd[1952]: pam_unix(passwd:chauthtok): password changed for lutiesong
+Jan  7 14:19:09 Deepin passwd[1952]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  7 14:20:20 Deepin su[2026]: No passwd entry for user 'lucmd'
+Jan  7 14:20:20 Deepin su[2026]: FAILED su for lucmd by root
+Jan  7 14:20:20 Deepin su[2026]: - /dev/pts/1 root:lucmd
+Jan  7 14:21:14 Deepin sudo:     root : TTY=pts/1 ; PWD=/home/ltscmd ; USER=root ; COMMAND=/usr/bin/passwd root
+Jan  7 14:21:14 Deepin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan  7 14:21:48 Deepin passwd[2030]: pam_unix(passwd:chauthtok): password changed for root
+Jan  7 14:21:48 Deepin passwd[2030]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  7 14:21:48 Deepin sudo: pam_unix(sudo:session): session closed for user root
+Jan  7 14:34:31 Deepin dbus[390]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.65" (uid=0 pid=2144 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=606 comm="NetworkManager ")
+Jan  7 14:34:06 Deepin pluto[994]: time moved backwards 36 seconds
+Jan  7 15:17:02 Deepin CRON[2634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  7 15:17:02 Deepin CRON[2634]: pam_unix(cron:session): session closed for user root
+Jan  7 15:18:09 Deepin groupadd[2684]: group added to /etc/group: name=ftp, GID=125
+Jan  7 15:18:09 Deepin groupadd[2684]: group added to /etc/gshadow: name=ftp
+Jan  7 15:18:09 Deepin groupadd[2684]: new group: name=ftp, GID=125
+Jan  7 15:18:09 Deepin useradd[2688]: new user: name=ftp, UID=113, GID=125, home=/srv/ftp, shell=/bin/false
+Jan  7 15:18:10 Deepin usermod[2693]: change user 'ftp' password
+Jan  7 15:18:10 Deepin chage[2698]: changed password expiry for ftp
+Jan  7 15:18:10 Deepin chfn[2701]: changed user 'ftp' information
+Jan  7 16:17:02 Deepin CRON[2914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  7 16:17:02 Deepin CRON[2914]: pam_unix(cron:session): session closed for user root
